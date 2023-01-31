@@ -28,7 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://imgur.com/a/xn0gX9F" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/hRU8JNY" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 First step is to download IIS (Internet Information Services) to our Azure Virtual Machine. To do this, we will first right click on the start button, click "Run", type control and hit enter. We will then go to "programs" and click "Turn Windows features on or off." A window will then open that will look like the image above. We will find and check the box for Internet Information Services, expand it, expand "World Wide Web Services," expand "Application Development Features," and finally, check off "CGI." Click ok and the installation will proceed.  * Note: This is assuming that you have created an Azure Virtual machine.
